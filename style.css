@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #461dfd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #3e13ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.profile-image {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Keeps the image aspect ratio */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+    border: 4px solid #3e13ff; /* Optional: Adds a rectangular border */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+}
+
+/* Container styling for About section */
+.about-container {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: space-between; /* Ensures space between text and image */
+}
+
+/* Styles for the text */
+.about-container p {
+    flex: 1; /* Allows text to take up remaining space */
+    padding-right: 20px; /* Adds space between text and image */
+}
+
+/* Styles for the profile image */
+.profile-image {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border: 2px solid #000000; /* Optional: Border for a neat look */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Optional: Shadow for depth */
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Stacks text and image vertically */
+        align-items: center;
+    }
+
+    .about-container p {
+        padding-right: 0;
+    }
+
+    .profile-image {
+        margin-top: 20px; /* Adds space between text and image on small screens */
+    }
+}
+
+#about {
+    padding: 20px; /* Reduces padding within the section */
+}
+
+#about h2 {
+    margin-bottom: 10px; /* Reduces space between the heading and content */
+}
+
+.about-container p {
+    margin-top: 0; /* Ensures no extra space at the top */
+    padding-right: 15px; /* Adjusts padding between text and image */
+}
+.about-container p {
+    padding-right: 10px; /* Adjust as needed for a tighter fit */
+}
+
+.profile-image {
+    margin-left: 10px; /* Optional: Adds a small space between text and image */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: linear-gradient(135deg, #f2f2f2, #d9e4f5);
+    margin: 0;
+    padding: 0;
+}
+
+/* Style individual sections */
+section {
+    padding: 40px;
+    margin: 20px auto;
+    background-color: white;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ffd700; /* Gold color on hover */
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.profile-image {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+.contact-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #004aad;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #ffd700; /* Gold on hover */
+}
+header {
+    background: linear-gradient(135deg, #004aad, #002a6b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.about-container p {
+    line-height: 1.6; /* Adds readability to text */
+    text-align: justify;
+    padding-right: 10px;
+}
